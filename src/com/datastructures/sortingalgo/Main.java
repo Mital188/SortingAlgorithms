@@ -40,6 +40,12 @@ public class Main {
         quickSort.sort(intArray,0, intArray.length);
         print(intArray);
 
+        //Implementing Counting sort
+        CountingSort countingSort = new CountingSort();
+        System.out.println("\nCounting Sort");
+        countingSort.sort(intArray,0, 9);
+        print(intArray);
+
     }
 
     public static void print(int[] array){
